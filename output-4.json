@@ -1,0 +1,52 @@
+[ {
+  "id" : 0,
+  "successors" : [ ],
+  "predecessors" : [ ],
+  "name" : "East Trading Post",
+  "age" : 0,
+  "type" : "CommercialStructure",
+  "resourceCost" : {
+    "conditionalSelection" : false,
+    "resources" : { }
+  },
+  "resourceProduction" : {
+    "conditionalSelection" : false,
+    "resources" : { }
+  },
+  "actions" : [ {
+    "type" : "sevenWonders.ActionAddTradePost",
+    "tradeWest" : false,
+    "tradeEast" : true,
+    "cheaperGoods" : {
+      "conditionalSelection" : false,
+      "resources" : {
+        "Stone" : 1,
+        "Wood" : 1,
+        "Clay" : 1,
+        "Ore" : 1
+      }
+    }
+  } ],
+  "coinCost" : 0,
+  "minNoOfPlayers" : 0
+}, {
+  "id" : 0,
+  "successors" : [ ],
+  "predecessors" : [ ],
+  "name" : "Sawmill",
+  "age" : 2,
+  "type" : "RawMaterial",
+  "resourceCost" : {
+    "conditionalSelection" : false,
+    "resources" : { }
+  },
+  "resourceProduction" : {
+    "conditionalSelection" : false,
+    "resources" : {
+      "Wood" : 2
+    }
+  },
+  "actions" : [ ],
+  "coinCost" : 1,
+  "minNoOfPlayers" : 0
+} ]

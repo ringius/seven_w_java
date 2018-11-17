@@ -1,0 +1,63 @@
+[ {
+  "id" : 1,
+  "successors" : [ ],
+  "predecessors" : [ ],
+  "name" : "Sawmill",
+  "age" : 0,
+  "type" : "RawMaterial",
+  "resourceCost" : {
+    "conditionalSelection" : false,
+    "resources" : { }
+  },
+  "resourceProduction" : {
+    "conditionalSelection" : false,
+    "resources" : {"Wood":2 }
+  },
+  "actions" : null,
+  "coinCost" : 1,
+  "minNoOfPlayers" : 3
+},{
+  "id" : 2,
+  "successors" : [ ],
+  "predecessors" : [ ],
+  "name" : "Qarry",
+  "age" : 0,
+  "type" : "RawMaterial",
+  "resourceCost" : {
+    "conditionalSelection" : false,
+    "resources" : { }
+  },
+  "resourceProduction" : {
+    "conditionalSelection" : false,
+    "resources" : {"Stone":2 }
+  },
+  "actions" : null,
+  "coinCost" : 1,
+  "minNoOfPlayers" : 3
+},
+
+
+
+
+
+ {
+  "id" : 0,
+  "successors" : [ ],
+  "predecessors" : [ ],
+  "name" : "Sawmill",
+  "age" : 2,
+  "type" : "RawMaterial",
+  "resourceCost" : {
+    "conditionalSelection" : false,
+    "resources" : { }
+  },
+  "resourceProduction" : {
+    "conditionalSelection" : false,
+    "resources" : {
+      "Wood" : 2
+    }
+  },
+  "actions" : [ ],
+  "coinCost" : 1,
+  "minNoOfPlayers" : 0
+} ]

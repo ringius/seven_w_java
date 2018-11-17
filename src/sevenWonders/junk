@@ -1,0 +1,18 @@
+Design UI fpr 7 Wonders:
+
+
+1. Card display - displays cards that you are able to buy
+2. Wonder display - displays your wonder and associated info such as upgrade level etc.
+3. Scrap heap/Trash can/bank - Target for throwing/selling cards.
+4. Display of already bought cards.
+5. Display of neighbouring cities.
+6. Display of other cities need to be taken into consideration as well, although no interaction is possible.
+
+7. Mouse interaction:
+- Click and hold to move a card.
+- Release button when card is in target area triggers the move.
+- Click on "end turn" to commit change.
+- Click on "Undo" to Undo
+- Mouse over a card to see the cost of the card (and its options, OR better still, show cost
+
+

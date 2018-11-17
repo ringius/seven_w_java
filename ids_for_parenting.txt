@@ -1,0 +1,42 @@
+
+altar 75, 76
+temple 17, 18
+pant 100, 101
+baths 73, 74
+aque  15, 16
+theater 77, 78
+statue 19, 20
+gardens 102, 103
+walls 33, 34
+fortifications 120, 121
+training ground 35, 36
+circus 122, 123
+apothecary 94, 95
+stables 38, 39
+Dispensary 42, 43
+Arena 117, 118, 119
+Lodge 130, 131
+Workshop 96, 97
+Archery Range 40, 41
+Laboratory 44, 45
+Siege Workshop 128, 129
+Observatory 132, 133
+Courthouse 21, 22
+Scriptorium 98, 99
+Library 46, 47
+Senate 109, 110
+University 134, 135
+School 48, 49
+Acedemy 136, 137
+Study 138, 139
+Forum 23, 24
+trade posts 82, 83, 84, 85
+Caravansery 26, 27
+Market place 86, 87
+Haven 111, 112
+Lighthouse 113, 114
+
+Senate, Circus
+
+
+

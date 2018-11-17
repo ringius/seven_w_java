@@ -1,0 +1,73 @@
+
+Kort som ska scannas
+aqueduct
+apothecary
+
+
+
+
+Utvecklingssteg och kvarvarande
+
+1. Huvudloop:
+2. Kortlekshantering
+     * Skapa,
+     * blanda,
+     * Dela ut,
+    Flytta.
+
+3. Utvärdering av strider i slutet av åldrar
+
+4. Hantering av underverk - uppgradering
+5. Försäljning av kort för att få in pengar
+6. Specialkort, t.ex. välj ett av de slängda korten...
+7. Skråkort.
+8. Nätverksstöd
+9. Grafiskt gränssnitt.
+10. Gratisinköp av kort pga att man äger "kortet innan".
+ * 11. Snyggare hantering av de olika korttyperna.
+ * 12. Initiera spelet från fil.
+ * 13. Tillåt fler än tre spelare.
+
+
+* 1. Initiera och blanda kortlek per ålder.
+2. Dela ut korten, visa ett antal kort för spelaren.
+3. Välja handling under spelomgången
+    - köpa kort
+    - sälja kort
+    - uppgradera underverk.
+* 4. Flytta korthögarna...
+
+Huvudloop:
+* 1. Flytta kortlek ett steg
+2, Visa korten för spelaren
+
+3. Spelaren väljer handling
+    köp kort
+    sälj kort
+    uppgradera underverk (fungerar som att köpa ett kort...)
+4. Uppdatera
+    skräphög,
+    * bankkonto,
+    * ägda kort,
+
+5. Om mer än ett kort återstår hos spelaren, gå till 1, annars 6
+6. Hantera specialkort som kickar in i slutet av ålder.
+
+* 7. Utred striden
+* 8. Om ålder < 3, Ta fram och blanda nästa kortlek. Dela ut korten och öka ålder med 1.
+                   Hopp till 2 ovan...
+
+TODO Buggar:
+* När man köper dyra kort kan det ibland bli så att balance räknar uppåt, med mer än 3. Verkar som att korten blir köpta ändå.
+* Fortfarande problem med att det ibland blir mismatch mellan antalet kort i högarna.
+* Beräkning av kostnad för Pantheon löjligt lång.
+* Redundanta lösningar visas fortfarande i card-display.
+* Kortet som tillhör underverket kommer inte med in i banken när spelet startas.
+* Om man har 3 stone i banken (på två kort), säger spelet ändå att man inte kan köpa "walls", saknas 1 sten.
+    Verkar som att man inte kollar mer än ett stenkort i det läget...
+* Tar bort *för* många lösningar där grannarna ska vara med och betala.
+* Tar också bort all info ibland när man inte har råd med ngt kort.
+
+
+
+

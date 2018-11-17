@@ -1,0 +1,7 @@
+{"id": 2, 
+"name":"Superspecial PlayCard",
+"age":2,
+"type":"CommercialStructure",
+"resourceCost":{"conditionalSelection":false,"resources":{"Glass": 2}},
+"resourceProduction":{"conditionalSelection":false,"resources":{"Wood":2}},
+"coinCost":1}

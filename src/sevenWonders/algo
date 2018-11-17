@@ -1,0 +1,75 @@
+
+
+l = [1, 2, ... , n]
+s = [[][]]
+
+h = head(l), t = tail(l)
+
+find (lista av råvaror, lista av listor med råvaror)
+find (l, ll)
+Om(|l| == 0)
+Klar och success.
+
+Annars:
+
+för varje element si i s:
+    kolla om h finns i si.
+    Om ja och |l| == 1 (dvs endast ett element som är lika med h -> Klar och färdig.
+    Om ja och |l| > 0 anropa rekursivt med t och s-si.
+    Om nej -> kolla nästa si
+
+Om ingen retur gjorts, fail.
+
+1. Minimera behovet att att köpa resurser externt. Detta kommer att de ett antal lösningar.
+2. Säkerställ att ingen av lösningarna ovan är delmängd av någon annan lösning.
+3. Mata in Solutions från ovanstående in i algoritmen ovan. Optimera genom att även ta hänsyn till mängden stålar på kontot?
+4. Kolla även upp att alla kort tas med, inte bara första bästa...
+
+1. Merga publik och privat bank.
+2. Om kortet har coin cost, kolla så att kortet kan betalas. Om ja, skapa Solution "BUY", annars:
+3. Kostnad för aktuellt kort i resurslista 'pris'.
+'Loop':
+    Om pris = [] Klart och betalt. Lösning finns i Solutions. Returnera
+    Om bank = [] => Alla alternativ genererade. Returnera
+
+    För varje element i pris:
+        Om typen finns unconditional, dra av antal kvar från pris, spara undan kort(en) i lösningen.
+    Solution = BaseSolution. Minsta rest som kräver någon form av beslutsfattande...
+
+Loop :
+    För varje element i pris:
+        Om typen finns i conditional, För varje kort som har typen:
+                Nytt pris = pris - antal, spara undan kortet i NY lösning.
+                Gör rekursivt anrop med Nytt pris och NY Lösning och bank - Använt kort.
+        Ta bort typen från priset (dvs antag att den inte "finns" och gör rekursivt anrop med kvarvarande pris
+        Spara "restbelopp" i baslösningen för den nya rekursionen.
+
+
+    for (ResourceCost c : cost) {
+        if (getAmountOfMaterial(c.type()) > 0) {
+            Collection cards = getCards(c.type)
+            for (PlayCard card : cards) {
+                newPrice = reducePrice(card.getAmount(type))
+                newBank = bank - card
+                newSolution = solution + card
+                recurse(newPrice, newBank, newSolution)
+            }
+        }
+        newSolution = solution + MissingResource(c)
+        newPrice = price - c
+        recurse(newPrice, bank, newSolution)
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
